@@ -1,0 +1,818 @@
+body { 
+	margin: 0;
+	padding: 0;
+	background-image: url(smallpng/background.png);
+	background-repeat: repeat-y;
+	background-size: 100% auto;
+	overflow-x: hidden;
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+span {
+	font-size: 30px;
+	 line-height: 32px;
+}
+
+section {
+	width: 100%;
+	position: relative;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+.hover{
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+[class*="-hover"]{
+	position: absolute;
+	z-index: 1000;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%, 0);
+	width: 200px;
+	opacity: 0;
+}
+
+
+.home img {
+	width: 100%;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 40px;
+}
+
+.unslider {
+	position: relative;
+}
+
+.unslider-arrow {
+    position: absolute;
+    left: 200px;
+    top: 20%;
+    font-size: 32px;
+    z-index: 2;
+    cursor: pointer;
+    color:F22A3B;
+
+}
+
+.unslider-arrow.next {
+	right: 200px;
+}
+
+.container.num2 {
+	width: 100%;
+	max-width: 100%;
+}
+
+.container.num3 {
+	width: 100%;
+	max-width: 100%;
+	padding-bottom: 0;
+}
+
+.num3 .col1 {
+	padding: 0;
+	margin-top: 30px;
+
+}
+
+.container .num6 {
+	margin-top: 100px;
+}
+
+.container .num6 img{
+	width:25%;
+	margin: auto;
+	display: block;
+}
+
+.row {
+	width: 100%;
+	margin: 0 -15px;
+
+}
+
+.row:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.col2 {
+	width:25%;
+	float: left; 
+	padding: 15px;
+} 
+
+.col4 {
+	width:50%;
+	float: left; 
+	padding: 15px;
+	position: relative;
+}
+
+.col1 {
+	width:12.5%;
+	float: left; 
+	padding: 15px;
+}
+
+.col3 {
+	width:37.5%;
+	float: left; 
+	padding: 15px;
+}
+
+.col6{
+	width: 75%;
+	float: left;
+	padding: 15px;
+	position: relative;
+}
+
+.push2{
+	margin-left: 25%
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	float: right;
+}
+
+#girl {
+	margin-top: -100px;
+	max-width:240px;
+	margin-bottom: 40px;
+}
+
+ #map {
+ 	margin-top: -65px;
+ }
+
+.scroll {
+	margin: 0 auto;
+		max-width: 200px;
+}
+
+.scroll p {
+		max-width: 200px;	
+		margin: -37px 0 0px 0px;
+		padding: 0 0 0 30%;
+}
+
+.fusili {
+	max-width: 200px;
+}
+
+p {
+	font-size: 20px;
+	margin: 0;
+	font-family: "Gill Sans";
+	 font-size: 20px;
+	color: 1B1464;
+}
+
+.pasta {  
+    width: 100%;
+    max-width: 100px;
+}
+
+.pasta-hover {
+	opacity: 0;
+	width: 100%;
+	margin-top: -30px;
+}
+
+.pasta:hover + .pasta-hover {
+	opacity: 1;
+}
+
+.ravioli {
+	width: 70%;
+}
+
+.ravioli-hover {
+	opacity: 0;
+
+}
+
+.ravioli:hover + .ravioli-hover {
+	opacity: 1;
+}
+
+.farfalle {
+	margin-top: 140px;
+}
+
+.num4 .farfalle {
+	margin-top: 300px;	
+}
+
+.penne {
+	width: 100%;
+	max-width: 200px;
+	margin-bottom: 20px;
+}
+
+.penne-hover {
+    top: -120px;
+}
+
+.container.num5 p{
+	margin-top: 170px;
+}
+
+
+.tv {
+	margin-top: -57px;
+}
+
+.penne:hover + .penne-hover {
+	opacity: 1;
+}
+
+.conchiglioni {
+	width: 70%;
+	max-width: 250px;	
+}
+
+.conchiglie-hover {
+	opacity: 0;
+    width: 200px;
+}
+
+.conchiglioni:hover + .conchiglie-hover {
+	opacity: 1;
+}
+
+.bold {
+	font-weight: bold;
+	text-align: center;
+}
+ 
+.fusilli {
+	max-width: 200px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.unslider-nav {
+	display: none;
+
+}
+
+.fusilli-hover {
+    margin-top: -35px;
+}
+
+.fusilli:hover + .fusilli-hover {
+	opacity: 1;
+	display: block;
+}
+
+
+
+.fettuccini:hover + .fettuccini-hover {
+	opacity: 1;
+}
+
+.container .num1 p{
+	margin-top: 10px;
+}
+
+.paragraph2 {
+	margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+
+
+#up {
+	margin-top: -475px;
+    margin-left: 284px;
+}
+
+
+.gif_farfalle {
+	width: 100px;
+    margin-left: 280px;
+    margin-top: -579px;
+}
+
+.gif_farfalle2 {
+	width: 120px;
+	margin-left: 347px;
+	margin-top: -500px;
+}
+
+.gif_farfalle3 {
+    width: 160px;
+    margin-left: 260px;
+    margin-top: -380px;
+}
+
+
+
+.farina {
+	margin-left: 300px;
+    margin-top: 100px;
+}
+
+#background {
+	background-color: FDC95D;
+	margin-top: -200px;
+}
+
+.macceroni {
+	margin-top: 118px;
+    margin-left: 116px;
+}
+
+
+
+.macceroni:hover + .macceroni-hover {
+	opacity: 1;
+}
+
+
+#down {
+	margin-top: 76px;
+}
+
+.venus {
+    margin-top: -90px;
+    width: 457px;
+
+}
+
+.tortellini {
+	width: 170px;
+}
+
+.tortellini-hover {
+	margin-left: -367px;
+    margin-top: -131px;
+}
+
+
+
+.tortellini:hover + .tortellini-hover{
+	opacity: 1;
+}
+
+.macceroni2 {
+	 margin-top: -507px;
+    margin-left: 200px;
+}
+
+
+.fettuccini:hover + .fettuccini-hover {
+	opacity: 1;
+}
+
+.colona {
+    max-width: 180px;
+	width: 100%;
+}
+
+.spaghetti-gif {
+	max-width: 220px;
+	width: 100%;
+}
+
+.spaghetti-gif:hover + .spaghetti-hover {
+	opacity: 1;
+}
+
+.spaghetti1 {
+	max-width: 100px;
+	width: 100%;
+}
+
+.pot {
+    width: 100%;
+    max-width: 250px;
+}
+
+
+.marco {
+    width: 100%;
+    margin-top: -35px;
+}
+
+.position {
+	position: relative;
+}
+
+.no-cen {
+	text-align: left;
+}
+
+.venus {
+    position: absolute;
+    width: 100%;
+    bottom: -20px;
+    right: -50%;
+    z-index: -1;
+}
+
+.redphrase {
+
+}
+
+.tortellini-hover {
+	opacity: 0;
+}
+
+.tortellini:hover +.tortellini-hover {
+	opacity: 1;
+}
+
+.maccheroni2 {
+	width: 100px;
+	margin-left: -37%;
+}
+
+.maccheroni3 {
+    width: 170px;
+}
+
+.maccheroni4 {
+	width: 180px;
+    margin-top: -75px;
+}
+
+.macceroni-hover2 {
+    left: 110px;
+    top: -48px;
+}
+
+.maccheroni4:hover + .macceroni-hover2 {
+	opacity: 1;
+}
+
+#red-container{
+	background-color: F22A3B;
+	padding-left: 20px;
+}
+
+.phrase5 {
+	width: 80%;
+    margin-top: 100px;
+}
+
+.eggs {
+	margin-bottom: 100px;
+}
+
+.wheat2 {
+    width: 258px;
+}
+
+
+.cuts {
+	margin-bottom: 40px;
+}
+
+.bucatini {
+	max-width: 385px;
+	width: 100%;
+}
+
+.bucatini-hover {
+
+}
+
+.bucatini:hover +.bucatini-hover {
+	opacity: 1;
+}
+
+.mezzaluna {
+	margin-left: -200px;
+}
+
+.mezzaluna-hover {
+margin-left: -103px;
+}
+
+.mezzaluna:hover +.mezzaluna-hover {
+	opacity: 1;
+}
+
+
+
+.cooking {
+	margin-top: 262px;
+	margin-left: 100px;
+}
+
+.pompia-gif {
+	margin-left: 679px;
+    margin-top: -373px;
+
+}
+
+
+.basilico {
+	max-width: 120px;
+	margin-left: 107px;
+}
+
+.phrase6 {
+
+}
+
+.phrase {
+	margin-top: 20px;
+}
+
+
+.olio {
+
+}
+
+.pomodoro {
+	margin-top: -50px;
+}
+
+.container-2 {
+	max-width: 100%;
+}
+
+
+.ciao {
+	margin-top: 200px;
+	position: absolute;
+	bottom: 0;
+	animation: end 10s infinite;
+}
+
+@keyframes end {
+    from {right: -250px;}
+    to {right: 110%;}
+}
+
+.end{
+	height: 500px;
+}
+
+.carousel-inner{
+	overflow: visible;
+}
+.carousel-inner .container{
+    padding: 0 40px 0;
+}
+.carousel-control.left, .carousel-control.right{
+	background-image: none;
+}
+
+.carousel-control.left .sr-only{
+	left: 20px;
+} 
+
+.carousel-control.right .sr-only{
+	right: 20px;
+} 
+
+
+.sr-only {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin: -1px;
+    padding: 0;
+    clip: auto;
+    top: 50%;
+    margin-top: -200px;
+    border: 0;
+}
+
+  .machinetta-gif {
+	max-width: 400px;
+    margin: 0 auto;
+    margin-top: 94px;
+    display: block;
+  }
+
+
+
+.carousel {
+    position: relative;
+    min-height: 700px;
+}
+
+
+.carousel-inner>.item.next.left, .carousel-inner>.item.prev.right, .carousel-inner>.item.active {
+    -webkit-transform: none !important; 
+    transform: none !important;
+    left: 0;
+}
+
+.carousel .item{
+	transition:opacity 0.3s;
+}
+
+.carousel .item.next {
+	left: 0;
+    opacity: 1;
+    z-index: 1;
+}
+.carousel .active.left{
+	left: 0;
+	opacity: 0;
+	z-index: 2;
+}
+
+.carousel .next {
+left:0;
+opacity: 1;
+z-index: 1;
+}
+
+
+.chef{
+	margin-top: 50px;
+}
+
+
+
+@media screen and (max-width: 667px) {
+
+    h1{
+    	font-size: 10px;
+    }
+
+    span {
+    	font-size: 20px;
+    }
+
+    p {
+    	font-size: 10px;
+    	margin: 15px;
+    }
+
+    .carousel{
+    	overflow-x: hidden;
+    }
+
+    .col4 {
+    	width: 100%;
+    }
+
+     .col1 {
+    	width: 100%;
+    }
+      .col2 {
+    	width: 100%;
+    }
+      .col6 {
+    	width: 100%;
+    }
+
+      .col8 {
+    	width: 100%;
+    }
+    .push2{
+    	margin-left: 0;
+    }
+    .push1{
+    	margin-left: 0;
+    }
+
+
+    #girl{
+    	width: 150px;
+    	margin-top: 20px;
+    }
+
+.pasta.farfalle {  
+  	width: 200px;
+  	margin-top: -30px;
+    }
+
+    .pasta-hover{
+    	display: none;
+    }
+
+  #map {
+  	margin-top: -10px;
+  	margin-left: 40px;
+  }
+
+  .conchiglioni {
+  	margin-left: 20px;
+  	width: 200px;
+  }
+
+  .phrase5{
+   width: 245px;
+    margin-left: -12px;
+  }
+
+  .eggs {
+  	width: 100%;
+  	margin-left: -18px;
+  }
+
+  .mezzaluna {
+  	display: none;
+  }
+
+  .cooking {
+  	margin-left: -4px;
+    margin-top: 0px;
+  }
+
+.basilico {
+	margin-top: -66px;
+    margin-left: 60px;
+}
+
+.home img {
+    width: 283px;
+
+}
+
+#scroll {
+	margin-left: 20px;
+}
+
+.ravioli {
+	width: 61px;
+}
+
+.ravioli-hover {
+	display: none;
+}
+
+.man {
+	margin-left: 27px;
+}
+
+.farfalle1 {
+	display: none;
+}
+
+.love{
+	width: 180px;
+	margin-left: 45px;
+}
+
+.num4 .farfalle {
+	display: none;
+}
+
+.conchiglioni {
+	margin-left: 30px;
+}
+
+.water {
+	width: 100px;
+}
+
+.machinetta-gif {
+	max-width: 192px;
+    margin-left: 37px;
+    margin-top: 8px;
+}
+
+.maccheroni3 {
+	margin-left: 36px;
+}
+
+.cuts {
+	margin-bottom: 0px;
+    width: 75%;
+}
+
+.phrase6 {
+	width: 80%;
+    margin-left: 23px;
+}
+
+.end {
+	height: 124px;
+}
+.ciao {
+	width: 50%;
+}
+}
